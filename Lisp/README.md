@@ -19,4 +19,4 @@ Would you like to play first? (y/n)
 ![Initializing Tic Tac Toe](img/Selectinitplayer.png)
 
 ## Run lisp
-![Lisp GIF](src/3.gif)
+![Lisp GIF](img/Correctrun.gif)
