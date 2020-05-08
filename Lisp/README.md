@@ -9,4 +9,4 @@ clisp board.lisp
 clisp board.lisp
 //Select play computer or not. 
 ```
-![Initializing Tic Tac Toe](src/Init.png)
+![Initializing Tic Tac Toe](img/Init.png)
