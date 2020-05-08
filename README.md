@@ -1,22 +1,30 @@
-# TIC TAC TOE Hack Day
+# TIC TAC TOE Hack Day  🎉
 
-## LANGUAGES
+## LANGUAGES ⌨
 
-Fortran
-Lisp
-Assembly
+* [Fortran](#Fortran)
+* [Lisp](#Lisp)
+* [Assembly](#Assembly)
 
-## HOW TO RUN 
+## Environment 💻
+This project is interpreted/tested on Ubuntu 18.04
+
+## HOW TO RUN ⚙
+
+```bash
+https://github.com/FeliPrado31/TicTacToe-HackDay.git
+cd TicTacToe-HackDay
+```
 
 You can see how to run the code in the readme of each folder
 
-## ALGORITHM
+## ALGORITHM 📂
 
 A board with 9 positions and the first player will mark a "X" and the second player marks and "O". The players don't play an occupied position. 
 
 The player wins if you complete the consecutives XXX or OOO horizontal, vertical or diagonal.
 
-## USER FLOW
+## USER FLOW 📊 
 
 The user must type the number of the board in the following positions :
 
@@ -31,6 +39,6 @@ The system displays a board and starts with the first player selecting a positio
 The player must type the number and press enter
 
 
-## SCREENSHOT
+## SCREENSHOT 📜
 
 ### 
