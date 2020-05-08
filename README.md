@@ -42,7 +42,8 @@ The player must type the number and press enter
 ## SCREENSHOT 📜
 
 ### Assembly
-![Assembly GIF](src/1.png)
+![Assembly GIF](src/1.gif)
 ### Fortran
-
+![Fortran GIF](src/2.gif)
 ### Lisp
+![Lisp GIF](src/3.gif)
