@@ -41,4 +41,8 @@ The player must type the number and press enter
 
 ## SCREENSHOT 📜
 
-### 
+### Assembly
+![Assembly GIF](src/1.png)
+### Fortran
+
+### Lisp
