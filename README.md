@@ -2,9 +2,9 @@
 
 ## LANGUAGES ⌨
 
-* [Fortran](#Fortran)
-* [Lisp](#Lisp)
-* [Assembly](#Assembly)
+* [Fortran](Fortran)
+* [Lisp](Lisp)
+* [Assembly](Assembly)
 
 ## Environment 💻
 This project is interpreted/tested on Ubuntu 18.04
