@@ -16,19 +16,19 @@ section .data
     player db "0", 0
     p_size equ $-player
     
-    game_over_message db "END GAME", 10, 0
+    game_over_message db "END GAME", 10, 0	; message end game
     gom_size equ $-game_over_message
     
-    game_start_message db "PLAY AGAIN"
-    gsm_size equ $-game_start_message
+    game_start_message db "PLAY AGAIN"		; main title
+    gsm_size equ $-game_start_message  		  
     
-    player_message db "PLAYER ", 0
+    player_message db "PLAYER ", 0		; title showing the current player
     pm_size equ $-player_message
     
     win_message db " WIN!", 0
     wm_size equ $-win_message
     
-    type_message db "ENTER A POSITION IN THE BOARD: ", 0
+    type_message db "ENTER A POSITION IN THE BOARD: ", 0	;message showing the position to type
     tm_size equ $-type_message
     
     clear_screen_ASCII_escape db 27,"[H",27,"[2J"      
@@ -76,13 +76,13 @@ main_loop:
     call print
     
     .repeat_read:
-        call read_keyboard               
+        call read_keyboard               	; read the position that the player types
     
     cmp rax, 0
     je .repeat_read
     
     mov al, [key]
-    sub al, 48                       
+    sub al, 48                       		; convert ascii to integer
     
     call update_draw
     
@@ -97,7 +97,7 @@ main_loop:
     
 change_player:
     
-    xor byte[player], 1  
+    xor byte[player], 1  			; change the number player 1 to 10 and 10 to 1
     
     ret
     
