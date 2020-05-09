@@ -12,11 +12,18 @@ gfortran -o board main.f95
 ![Fortran run](img/Fortraninit.png)
 
 ```bash
-*Palyer move*
+*Player move*
  P1 move? 
 1
 ```
 ![Fortran run](img/Fortranplayermove.png)
+
+```bash
+*Player move*
+ P2 move? 
+5
+```
+![Fortran run](img/Fortranplayermove2.png)
 
 ## Run Fortran
 ![Fortran run](img/Correctrun.gif)
